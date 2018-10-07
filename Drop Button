@@ -19,3 +19,38 @@
   <li><a href="#" class="button">Button 3</a></li>
   <li><a href="#" class="button">Button 4</a></li>
 </ul>
+<!-- Stak button-->
+<ul class="stack button-group">
+  <li><a href="#" class="button">Button 1</a></li>
+  <li><a href="#" class="button">Button 2</a></li>
+</ul>
+<ul class="stack-for-small round secondary button-group">
+  <li><a href="#" class="button">Button 1</a></li>
+  <li><a href="#" class="button">Button 2</a></li>
+</ul>
+<!-- bar button-->
+<div class="button-bar">
+  <ul class="button-group">
+    <li><a href="#" class="small button">Button 1</a></li>
+    <li><a href="#" class="small button">Button 2</a></li>
+    <li><a href="#" class="small button">Button 3</a></li>
+  </ul>
+  <ul class="button-group">
+    <li><a href="#" class="small button">Button 1</a></li>
+    <li><a href="#" class="small button">Button 2</a></li>
+    <li><a href="#" class="small button">Button 3</a></li>
+  </ul>
+</div>
+<!-- You can mix styles in a button bar if you want. -->
+<div class="button-bar">
+  <ul class="button-group round">
+    <li><a href="#" class="small button secondary">Button 1</a></li>
+    <li><a href="#" class="small button secondary">Button 2</a></li>
+    <li><a href="#" class="small button secondary">Button 3</a></li>
+  </ul>
+  <ul class="button-group radius">
+    <li><a href="#" class="small button success">Button 1</a></li>
+    <li><a href="#" class="small button success">Button 2</a></li>
+    <li><a href="#" class="small button success">Button 3</a></li>
+  </ul>
+</div>
