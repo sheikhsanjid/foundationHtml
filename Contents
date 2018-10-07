@@ -1,0 +1,47 @@
+<ul class="accordion" data-accordion>
+  <li class="accordion-item is-active" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title">Accordion 1</a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content>
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+  <!-- ... -->
+</ul>
+
+<!--calling out -->
+<div class="callout small">
+  <h5>This is a small callout</h5>
+  <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  <a href="#">It's dangerous to go alone, take this.</a>
+</div>
+
+<div class="callout large">
+  <h5>This is a large callout</h5>
+  <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  <a href="#">It's dangerous to go alone, take this.</a>
+</div>
+<!--card -->
+<div class="card" style="width: 300px;">
+  <div class="card-divider">
+    This is a header
+  </div>
+  <img src="assets/img/generic/rectangle-1.jpg">
+  <div class="card-section">
+    <h4>This is a card.</h4>
+    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  </div>
+</div>
+
+<!-- image has padding -->
+<div class="card">
+  <div class="card-section">
+    <img src="assets/img/generic/rectangle-1.jpg">
+  </div>
+  <div class="card-section">
+    <p>This is a simple card with an image inside a `.card-section`.</p>
+  </div>
+</div>
