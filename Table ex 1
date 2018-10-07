@@ -1,0 +1,35 @@
+<ul class="pricing-table">
+  <li class="title">Standard</li>
+  <li class="price">$99.99</li>
+  <li class="description">An awesome description</li>
+  <li class="bullet-item">1 Database</li>
+  <li class="bullet-item">5GB Storage</li>
+  <li class="bullet-item">20 Users</li>
+  <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+</ul>
+<!--Dropdown Menu-->
+<a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Has Dropdown</a>
+<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
+<!--Dropdown Menu-->
+<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Has Content Dropdown</a>
+<div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+  <p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p>
+</div>
+<!--Dropdown Menu-->
+<a href="#" class="button" data-dropdown="drop">Link Dropdown &raquo;</a>
+<ul id="drop" class="[tiny small medium large content]f-dropdown" data-dropdown-content>
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
+<!--Dropdown Menu-->
+<a href="#" data-options="align:left" data-dropdown="drop" class="button">Link Dropdown &raquo;</a>
+<ul id="drop" class="[tiny small medium large content]f-dropdown" data-dropdown-content>
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
